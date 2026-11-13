@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://fusionproxy.net/?utm_source=github&utm_medium=python-requests-proxy">
+  <a href="https://fusionproxy.net/?utm_source=github&utm_medium=referral&utm_campaign=python-requests-proxy">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FusionProxies/.github/main/assets/logo-on-dark.png">
       <img src="https://raw.githubusercontent.com/FusionProxies/.github/main/assets/logo-on-light.png" alt="Fusion Proxy" height="52">
@@ -147,7 +147,7 @@ session_user = "USERNAME-country-us-sessid-4821937-sessTime-600s"  # same IP for
 proxy = f"http://{session_user}:PASSWORD@resi.fusionproxy.net:12286"
 ```
 
-Same `sessid` = same IP; a new `sessid` = a new IP. The format is explained in the [endpoint generator guide](https://fusionproxy.net/guides/endpoint-generator?utm_source=github&utm_medium=python-requests-proxy).
+Same `sessid` = same IP; a new `sessid` = a new IP. The format is explained in the [endpoint generator guide](https://fusionproxy.net/guides/endpoint-generator?utm_source=github&utm_medium=referral&utm_campaign=python-requests-proxy).
 
 Script: [`05_sticky_session.py`](05_sticky_session.py)
 
@@ -162,7 +162,7 @@ Script: [`05_sticky_session.py`](05_sticky_session.py)
 | `InvalidSchema: Missing dependencies for SOCKS support` | SOCKS used without PySocks | `pip install "requests[socks]"` |
 | `403` or `429` from the website | The site blocks or rate-limits the IP | Slow down, send normal browser headers, use a residential IP in the right country |
 
-To test a proxy without writing code, use the free [online proxy checker](https://fusionproxy.net/tools/proxy-checker?utm_source=github&utm_medium=python-requests-proxy) or the [proxy-checker](https://github.com/FusionProxies/proxy-checker) command-line tool.
+To test a proxy without writing code, use the free [online proxy checker](https://fusionproxy.net/tools/proxy-checker?utm_source=github&utm_medium=referral&utm_campaign=python-requests-proxy) or the [proxy-checker](https://github.com/FusionProxies/proxy-checker) command-line tool.
 
 ## Run the examples
 
@@ -172,7 +172,7 @@ export FUSION_PASS="your_password"
 python 02_authenticated_proxy.py
 ```
 
-Don't have proxy credentials? [Fusion Proxy residential proxies](https://fusionproxy.net/proxies/residential?utm_source=github&utm_medium=python-requests-proxy) start at $2.95/GB, and there is a [free trial](https://fusionproxy.net/free-trial?utm_source=github&utm_medium=python-requests-proxy). `01_basic_proxy.py` and `04_rotate_proxy_list.py` work with any proxy.
+Don't have proxy credentials? [Fusion Proxy residential proxies](https://fusionproxy.net/proxies/residential?utm_source=github&utm_medium=referral&utm_campaign=python-requests-proxy) start at $2.95/GB, and there is a [free trial](https://fusionproxy.net/free-trial?utm_source=github&utm_medium=referral&utm_campaign=python-requests-proxy). `01_basic_proxy.py` and `04_rotate_proxy_list.py` work with any proxy.
 
 ## Related
 
